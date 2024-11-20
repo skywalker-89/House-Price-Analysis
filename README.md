@@ -36,10 +36,10 @@ The project involves scraping housing data from Zoopla, cleaning and preparing t
   - `json` for handling scraped data
   - Tableau for visualization
 
-Install the required dependencies:
-```bash
+## Install the required dependencies:
+bash
 pip install -r requirements.txt
-playwright install```
+playwright install
 
 ## Usage
 Run the Scraper:
@@ -49,15 +49,15 @@ python clean.py
 Visualize the Data:
 Load the cleaned data into Tableau to create visualizations like scatter plots, bar charts, and dashboards.
 
-##Results
+## Results
 The analysis highlights trends in the housing market, such as:
 
-##Average prices by postal code.
+## Average prices by postal code.
 Distribution of properties based on the number of bedrooms and bathrooms.
 Insights into the types of properties available in different areas.
-##Future Work
+## Future Work
 Enhance the scraper to include additional features such as property types or square footage.
 Implement advanced machine learning models to predict property prices based on features.
 Automate the Tableau visualization process for real-time updates.
-##Acknowledgments
+## Acknowledgments
 Special thanks to the Playwright and pandas libraries for enabling web scraping and data cleaning, and Tableau for visualization.
